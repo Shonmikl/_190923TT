@@ -1,12 +1,24 @@
 package org.example._2023_12_08;
 
 public class Handler {
-    /**
-     * 1. Вывести все адреса библиотек
-     *      public static void printAllAddresses(Library[] libraries)
-     * 2. Подсчитать общее количество книг во всех библиотеках
-     *      public static void printTotalBookCount(Library[] libraries) {
-     * 3. Вывести названия всех книг в библиотеке
+    /** 1. Вывести все адреса библиотек*/
+    public static void printAllAddresses(Library[] libraries) {
+        for (Library library : libraries) {
+            System.out.println(library.getAddress());
+        }
+    }
+
+     /** 2. Подсчитать общее количество книг во всех библиотеках*/
+     public static void printTotalBookCount(Library[] libraries) {
+         int bookCount = 0;
+         for (Library library : libraries) {
+             int count = library.getBooks().length;
+             bookCount = bookCount + count;
+         }
+         System.out.println("ALL BOOKS NUMBER IS: " + bookCount);
+     }
+
+     /** 3. Вывести названия всех книг в библиотеке
      *      public static void printAllBookNames(Library library) {
      * 4. Найти библиотеки, где есть электронные книги
      *      public static void printLibrariesWithEBooks(Library[] libraries) {

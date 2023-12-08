@@ -45,10 +45,12 @@ public class Generator {
         return 0;
     }
 
-    //todo
     public static Library[] libraryGen() {
-        Library[] libraries = new Library[5];
-        //logic.......
+        Library[] libraries = new Library[5];// l1 l2 l3 l4 l5
+        int bookNumber = 20;
+        for (int i =0; i < libraries.length; i++) {
+            libraries[i] = new Library(FAKER.address().fullAddress(), bookNumber, bookGenerator(bookNumber));
+        }
         return libraries;
     }
 }

@@ -10,6 +10,8 @@ public class Generator {
     private static final Faker FAKER = new Faker();
     private static final Random RANDOM = new Random();
 
+
+
     private static Condition randomConditionGen() {
         Condition[] conditions = Condition.values(); //new old damaged
         int index = RANDOM.nextInt(3);
@@ -34,10 +36,19 @@ public class Generator {
         return books;
     }
 
+
+    //todo
     private static int bookIssueDate() {
         /**
          * gen 1900 - 2022
          */
         return 0;
+    }
+
+    //todo
+    public static Library[] libraryGen() {
+        Library[] libraries = new Library[5];
+        //logic.......
+        return libraries;
     }
 }

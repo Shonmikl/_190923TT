@@ -11,11 +11,12 @@ public class Account {
 }
 
 class Bank {
-    Branch[] branches;
+    private Branch[] branches;
 }
 
 class Branch {
-    Empl[] employees;
+    private String branchName;
+    private Empl[] employees;
 }
 
 class Empl {

@@ -64,9 +64,25 @@ public class Handler {
      * Сигнатура: public Empl findEmployeeWithMostAccounts(Empl[] employees)
      * Анализ распределения типов валют среди всех счетов
      *
-     * Описание: Распределяет сотрудников по отделениям так, чтобы загрузка по числу управляемых счетов была оптимальной.
-     * Сигнатура: public void optimizeEmployeeDistribution(Branch[] branches)
-     * Моделирование финансовой сети банка
+     * Описание: Идентифицирует сотрудников, которые управляют счетами в более чем одной валюте.
+     * Сигнатура: public Empl[] findMultiCurrencyAccountManagers(Empl[] employees)
      *
+     * Описание: Для каждой валюты находит счет с максимальным балансом.
+     * Сигнатура: public Account[] findMaxBalanceAccountsForCurrencies(Account[] accounts)
+     *
+     * Описание: Проверяет все счета всех сотрудников на предмет дублирования номеров счетов.
+     * Сигнатура: public boolean hasDuplicateAccounts(Empl[] employees)
+     *
+     * Описание: Возвращает сотрудников, у которых количество счетов попадает в заданный диапазон.
+     * Сигнатура: public Empl[] findEmployeesByAccountCount(Empl[] employees, int min, int max)
+     *
+     * Описание: Вычисляет среднее количество счетов на сотрудника в каждом отделении банка.
+     * Сигнатура: public Map<Branch, Double> calculateAverageAccountsPerEmployee(Branch[] branches)
+     *
+     * Описание: Проверяет, используется ли заданная валюта хотя бы на одном счету среди сотрудников.
+     * Сигнатура: public boolean isCurrencyUsedByEmployees(Empl[] employees, Currency currency)
+     *
+     * Описание: Возвращает сотрудников, у которых количество счетов попадает в заданный диапазон.
+     * Сигнатура: public Empl[] findEmployeesByAccountCount(Empl[] employees, int min, int max)
      */
 }

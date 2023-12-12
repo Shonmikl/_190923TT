@@ -19,18 +19,18 @@ public class Handler {
      }
 
      /** 3. Вывести названия всех книг в библиотеке
-     *      public static void printAllBookNames(Library library) {
-     * 4. Найти библиотеки, где есть электронные книги
-     *      public static void printLibrariesWithEBooks(Library[] libraries) {
-     * 5. Вывести книги в заданном состоянии
-     *      public static void printBooksByCondition(Library[] libraries, Condition condition) {
-     * 6. Вывести список библиотек с количеством книг больше заданного
-     *      public static void printLibrariesWithMoreThanXBooks(Library[] libraries, long count) {
-     * 7. Вывести книги, изданные до заданного года
+     *     public static void printAllBookNames(Library library) {
+     * 4.  Найти библиотеки, где есть электронные книги
+     *     public static void printLibrariesWithEBooks(Library[] libraries) {
+     * 5.  Вывести книги в заданном состоянии
+     *     public static void printBooksByCondition(Library[] libraries, Condition condition) {
+     * 6.  Вывести список библиотек с количеством книг больше заданного
+     *     public static void printLibrariesWithMoreThanXBooks(Library[] libraries, long count) {
+     * 7.  Вывести книги, изданные до заданного года
      *     public static void printBooksIssuedBeforeYear(Library[] libraries, int year) {
-     * 8. Вывести авторов книг в алфавитном порядке
+     * 8.  Вывести авторов книг в алфавитном порядке
      *     public static void printAuthorsAlphabetically(Library[] libraries) {
-     * 9. Вывести библиотеки, которые не имеют книг
+     * 9.  Вывести библиотеки, которые не имеют книг
      *     public static void printLibrariesWithoutBooks(Library[] libraries) {
      * 10. Вывести книги, названия которых начинаются на заданную букву
      *     public static void printBooksStartingWithLetter(Library[] libraries, char letter) {

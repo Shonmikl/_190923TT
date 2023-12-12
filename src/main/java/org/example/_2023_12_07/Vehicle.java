@@ -12,7 +12,6 @@ public abstract class Vehicle {
 class Mikhail extends Vehicle {
 
 
-
     @Override
     public void move() {
         System.out.println("2000");

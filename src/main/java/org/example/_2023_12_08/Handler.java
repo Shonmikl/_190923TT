@@ -1,8 +1,16 @@
 package org.example._2023_12_08;
 
+import java.util.List;
+
 public class Handler {
     /** 1. Вывести все адреса библиотек*/
     public static void printAllAddresses(Library[] libraries) {
+        for (Library library : libraries) {
+            System.out.println(library.getAddress());
+        }
+    }
+
+    public static void printAllAddressesLIST(List<Library> libraries) {
         for (Library library : libraries) {
             System.out.println(library.getAddress());
         }
@@ -17,6 +25,15 @@ public class Handler {
          }
          System.out.println("ALL BOOKS NUMBER IS: " + bookCount);
      }
+
+    public static void printTotalBookCountLIST(List<Library> libraries) {
+        int bookCount = 0;
+        for (Library library : libraries) {
+            int count = library.getBooks().length;
+            bookCount = bookCount + count;
+        }
+        System.out.println("ALL BOOKS NUMBER IS: " + bookCount);
+    }
 
      /** 3. Вывести названия всех книг в библиотеке
      *     public static void printAllBookNames(Library library) {

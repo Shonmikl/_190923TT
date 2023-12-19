@@ -13,10 +13,13 @@ public class MapEx1 {
         map.put(3, "V");
         System.out.println(map);
 
+
+
 //        List<Integer> list = Arrays.asList(12, 36, 54, 7, 89);
 //        for (Integer i : list) {
 //            System.out.println(i);
 //        }
+
 
         for (Map.Entry<Integer, String> m : map.entrySet()) {
             System.out.println(m.getKey() + " : " + m.getValue());

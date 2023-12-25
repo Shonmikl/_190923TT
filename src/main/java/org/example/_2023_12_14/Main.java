@@ -32,12 +32,12 @@ public class Main {
         List<Integer> list1 = Arrays.asList(1, 2, 3, 4, 5, 6);
         int sum = 0;
 
-        for (int i = 0; i < a.length; i++) {
-            sum = sum + a[i];
+        for (int j : a) {
+            sum +=j;
         }
 
-        for (int i = 0; i < list1.size(); i++) {
-            sum = sum + list1.get(i);
+        for (Integer integer : list1) {
+            sum += integer;
         }
     }
 }

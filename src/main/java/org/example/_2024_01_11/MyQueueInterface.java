@@ -30,16 +30,18 @@ class MuQueueImpl<E> implements MyQueueInterface<E> {
 
     @Override
     public boolean add(E e) {
-        return false;
+        return list.add(e);
     }
 
     @Override
     public E poll() {
-        return null;
+        Object o = list.get(0);
+        list.remove(list.get(0));
+        return (E) o;
     }
 
     @Override
     public E peek() {
-        return null;
+        return list.get(0);
     }
 }

@@ -2,10 +2,7 @@ package org.example._2023_12_14;
 
 import org.example._2023_12_12.tE.Account;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Random;
+import java.util.*;
 
 public class Main1 {
     public static List<Integer> testList(List<Integer> list) {
@@ -15,7 +12,7 @@ public class Main1 {
     }
 
     public static void main(String[] args) {
-        List<Integer> list = new ArrayList<>();
+        List<Integer> list = new LinkedList<>();
         list.add(1);
         list.add(1);
 

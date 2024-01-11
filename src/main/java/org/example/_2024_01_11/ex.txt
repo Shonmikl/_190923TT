@@ -1,0 +1,18 @@
+- public static T generateParticipant(T obj) {
+    --instance of
+    return new T----->
+}
+
+- public static T generateParticipant(T obj) {
+    Team<T> team = new Team(Faker.name);
+    fori(4) {
+        team.add(generateParticipant(T obj))
+    }
+}
+
+public static Set<Team<T>> generate25Team (T t) {
+    Set set = new Set
+    fori(25){
+    generateParticipant(t) {
+}
+}

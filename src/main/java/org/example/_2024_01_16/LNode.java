@@ -1,5 +1,7 @@
 package org.example._2024_01_16;
 
+import java.util.List;
+
 public class LNode {
     int x;
     LNode next;
@@ -24,4 +26,11 @@ public class LNode {
     public static boolean isC(LNode head) {
         return true;
     }
+
+    //todo
+    public static List<int[][]> attack(int[][] kinkCoordinate,  int[][] queens) {
+        return null;
+    }
+
+
 }

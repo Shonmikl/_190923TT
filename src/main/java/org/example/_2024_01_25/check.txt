@@ -1,0 +1,2 @@
+массовый опрос
+A Flushable is a destination of data that can be flushed. - Olga

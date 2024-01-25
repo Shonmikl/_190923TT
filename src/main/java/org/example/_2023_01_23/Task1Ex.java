@@ -25,4 +25,6 @@ public class Task1Ex {
             throw new RuntimeException(e);
         }
     }
+
+
 }

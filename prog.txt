@@ -5,7 +5,7 @@
 ++Enums in Java
 ++Understanding reference type. Reference Data Types in Java
 
-***************JCF. Java Collections Framework************************
+***************JCF. Java Collectio%%%JAVA%%%rk************************
 !!!!!!Working with Arrays in Java. Binary search. Sort.
 ++Data structures definition. Interfaces.
 ++Data structure 'List'. ArraysList implementation, beginning.

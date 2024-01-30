@@ -1,4 +1,4 @@
 массовый опрос
-A Flushable is a destination of data that can be flushed. - Olga - 
+A Flushable is a destination of data that can be flushed. - Olga ++++
 Maxim - gropingBy -
-Alexander - partitioningBy -
+Alexander - partitioningBy +++

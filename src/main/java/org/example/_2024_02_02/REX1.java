@@ -9,7 +9,5 @@ public class REX1 {
     public static void main(String[] args) {
         String ip1 = "255.255.255.0";
         String ip2 = "200.5.25.111";
-
-
     }
 }

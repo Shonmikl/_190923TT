@@ -11,6 +11,7 @@ class ABC1Test {
     void sumTest() {
         int actual = ABC_1.sum(8, 2);
         Assertions.assertEquals(expected, actual);
+
     }
 
     @Test

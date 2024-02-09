@@ -1,4 +1,4 @@
-package org.example.TESTING._2024_02_08.mock.taski2;
+package org.example.TESTING._2024_02_09.taski2;
 
 public class PaymentService {
     private final SimpleNotificationService notificationService;
@@ -44,7 +44,6 @@ public class PaymentService {
     }
 
     public boolean verifyPayment(double amount) {
-
         notificationService.sendPaymentNotification("Payment verified for amount: " + amount);
         return true;
     }

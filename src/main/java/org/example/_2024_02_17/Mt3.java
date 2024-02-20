@@ -1,6 +1,7 @@
 package org.example._2024_02_17;
 
 public class Mt3 {
+
     public static void main(String[] args) throws InterruptedException {
         System.out.println("MAIN START");
         System.out.println(Thread.currentThread().getName());

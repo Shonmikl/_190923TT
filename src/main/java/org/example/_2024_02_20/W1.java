@@ -45,7 +45,7 @@ class Market {
     }
 
     public synchronized void putItem() {
-        while (item >= 6) {
+        while (item >= 5) {
             try {
                 wait();
             } catch (InterruptedException e) {
@@ -75,7 +75,7 @@ class Producer implements Runnable {
 
     @Override
     public void run() {
-        for (int i = 0; i < 6; i++) {
+        for (int i = 0; i < 10; i++) {
             market.putItem();
         }
     }
@@ -90,7 +90,7 @@ class Consumer implements Runnable {
 
     @Override
     public void run() {
-        for (int i = 0; i < 6; i++) {
+        for (int i = 0; i < 10; i++) {
             market.getItem();
         }
     }

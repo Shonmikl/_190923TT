@@ -33,14 +33,13 @@ class Market {
         }
 
         try {
-            Thread.sleep(400);
+            Thread.sleep(800);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
 
         item--;
-        System.out.println("a person has bought one item");
-        System.out.println("item's count: " + item);
+        System.out.println("a person has bought one item"+ " || " + "item's count: " + item);
         notify();
     }
 
@@ -54,14 +53,13 @@ class Market {
         }
 
         try {
-            Thread.sleep(400);
+            Thread.sleep(800);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
 
         item++;
-        System.out.println("a factory has put one item into the market");
-        System.out.println("item's count: " + item);
+        System.out.println("a factory has put one item into the market" + " || " + "item's count: " + item);
         notify();
     }
 }
